@@ -1,0 +1,68 @@
+
+.bigdiv{
+	width: 300px;
+	height: 200px;
+	margin:0px auto;
+	overflow: hidden;
+	
+}
+.img{
+	background: red;
+	width: 1500px;
+	height: 200px;
+	animation: picture 15s linear 0.3s infinite  alternate;
+	/*animation-direction: alternate;*/
+	margin: 0px;
+}
+.img div{width: 300px;
+	height: 200px;
+	float: left;
+}
+@keyframes picture{
+	0% {margin-left: 0px}
+	5% {margin-left: 0px}
+
+	14% {margin-left: -300px}
+	28% {margin-left: -300px}
+
+	38%{margin-left: -600px;}
+	52% {margin-left: -600px}
+
+	62%{margin-left:-900px;}
+	75%{margin-left:-900px;}
+
+	84%{margin-left:-1200px}
+	100%{margin-left:-1200px}
+}
+.div1{
+	width: 200px;
+	height: 20px;
+	border:1px solid;
+	overflow: hidden;
+}
+.gd{
+	width: 200px;
+	height: 50px;
+	font-size: 17px;
+	margin-top: 3px;
+	text-align: center;
+	animation: gd 5s linear 0.3s infinite  alternate;
+}
+@keyframes gd{
+	0% {margin-top: 3px}
+	30% {margin-top: 3px}
+
+	40% {margin-top: -31px}
+	70% {margin-top: -31px;}
+
+	80%{margin-top: -64px;}
+	100% {margin-top: -64px;}
+
+	
+	
+}
+
+
+ul{
+	list-style: none;
+}
