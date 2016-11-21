@@ -1,0 +1,60 @@
+body{
+	width: 100%;
+	position: relative;
+	}
+.j-img{
+	width: 50%;
+	position: relative;
+	top:150px;
+	margin: 0 auto;
+	min-width:360px;
+}
+article{
+	width: 50%;
+	position: relative;
+	top:180px;
+	margin: 0 auto;
+	min-width:360px;
+}
+/*section{
+	width: 100%;
+
+}*/
+section div{
+	margin-top: 20px;
+	width:220px;
+	height: 80px;
+	margin-bottom: 50px;
+}
+p{
+font-size: 14px;
+}
+.pf{
+	margin-top: 50px;
+	text-indent: 2em;
+	font-size: 16px;
+}
+.p1{
+	margin-top: 30px;
+}
+.pp{
+	margin-top: 60px;
+	font-size: 16px;
+}
+.p2{
+	margin-top: 20px;
+	font-size: 16px;
+}
+.p3{
+	margin-top: 10px;
+	font-size: 16px;
+}
+.i1{
+	margin-bottom: 10px;
+}
+@media screen and (max-width: 600px){
+	.pf{
+		font-size: 14px;
+	}
+	
+}
